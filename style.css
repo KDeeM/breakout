@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "FredokaOne";
+  src: url("/fonts/FredokaOne-Regular.ttf");
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #65afac;
+}
+.dummyColorChecker{
+  background-color: #6df3ff;
+}
