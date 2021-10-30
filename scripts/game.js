@@ -1,6 +1,7 @@
 import {MainMenu} from "/scripts/scenes/mainMenu.js";
 import {LoadingScreen} from "/scripts/scenes/loadingScreen.js"
-import {Button, Stage} from "/scripts/scenes/stage.js"
+import {Stage} from "/scripts/scenes/stage.js"
+import {PauseScreen} from "/scripts/scenes/pauseScreen.js"
 
 const gameCanvas = document.querySelector("#gameCanvas");
 let config = {
@@ -17,7 +18,7 @@ let config = {
       debug : true
     }
   },
-  scene: [LoadingScreen, MainMenu, Stage]
+  scene: [LoadingScreen, MainMenu, Stage, PauseScreen]
 }
 
 let game = new Phaser.Game(config);

@@ -16,7 +16,10 @@ export class LoadingScreen extends Phaser.Scene{
       ["wall", "../images/wall.jpg"],
       ["control_left", "../images/ui/left_3.png"],
       ["control_right", "../images/ui/right_3.png"],
-      ["button", "../images/ui/button.png"]
+      ["button", "../images/ui/button.png"],
+      ["pauseButton", "../images/ui/pause.png"],
+      ["star", "../images/ui/star.png"],
+      ["cog", "../images/ui/cog.png"],
     ]
     this.loadImage(images);
     this.load.json("levelData", "../data/levels.json");
@@ -26,7 +29,7 @@ export class LoadingScreen extends Phaser.Scene{
     this.label = this.add.text(360 / 2, 640 / 2, "Loading Screen", {fontSize: "36px", fill : "#fff"}).setOrigin(0.5);
     setTimeout(
       () => {
-        this.scene.start("stage");
+        this.scene.start("mainMenu");
       }, 1000
     )
   }
