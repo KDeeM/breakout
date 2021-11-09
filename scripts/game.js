@@ -1,7 +1,7 @@
 import {MainMenu} from "https://kdeem.github.io/scripts/scenes/mainMenu.js";
-import {LoadingScreen} from "/scripts/scenes/loadingScreen.js"
-import {Stage} from "/scripts/scenes/stage.js"
-import {PauseScreen} from "/scripts/scenes/pauseScreen.js"
+import {LoadingScreen} from "https://kdeem.github.io/scripts/scenes/loadingScreen.js"
+import {Stage} from "https://kdeem.github.io/scripts/scenes/stage.js"
+import {PauseScreen} from "https://kdeem.github.io/scripts/scenes/pauseScreen.js"
 
 const gameCanvas = document.querySelector("#gameCanvas");
 let config = {
