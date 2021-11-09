@@ -1,4 +1,4 @@
-import {MainMenu} from "/scripts/scenes/mainMenu.js";
+import {MainMenu} from "https://kdeem.github.io/breakout/scripts/scenes/mainMenu.js";
 import {LoadingScreen} from "/scripts/scenes/loadingScreen.js"
 import {Stage} from "/scripts/scenes/stage.js"
 import {PauseScreen} from "/scripts/scenes/pauseScreen.js"
